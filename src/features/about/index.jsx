@@ -14,11 +14,10 @@ function About(props) {
 
     const [dataBlock] = useState(
         {
-            subtitle : 'About us',
-            title: 'What is Dapper?',
+            title: 'What is Dapper Dogs?',
             desc : `The hottest new collection of NFTs on the blockchain! Our unique and collectible digital assets are sure to turn heads and make a statement.
-            Each Dapper is one-of-a-kind, with stunning artwork and incredible detail that will make your collection stand out from the rest.
-            Whether you're an avid NFT collector or just starting out, Dappers are the perfect addition to your portfolio.`
+            Each Dapper Dog is one-of-a-kind, with stunning artwork and incredible detail that will make your collection stand out from the rest.
+            Whether you're an avid NFT collector or just starting out, Dapper Dogs are the perfect addition to your portfolio.`
         }
     )
      return (
