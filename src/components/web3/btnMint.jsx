@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export function  BtnMint() {
   
   const { config, error } = usePrepareContractWrite({
-    address: '0x7f806e3c7290F35Ad35cA4B2F3aE8E484Bc8ce3F',
+    address: '0x2EdA6252bC82860f364Ce7d1a1709c76e40b3dEb',
     abi: collection,
     args: [1,0],
     functionName: 'safeMint',
