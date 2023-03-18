@@ -23,11 +23,6 @@ const menus = [
         links: '/nft-item',
     },
     {
-        id: 5,
-        name: 'Blog',
-        links: '/blog',
-    },
-    {
         id: 6,
         name: 'Contact',
         links: '/contact'
