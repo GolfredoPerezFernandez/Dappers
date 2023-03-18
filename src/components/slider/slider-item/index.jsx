@@ -1,8 +1,6 @@
 import React , {useState} from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import ModalVideo from 'react-modal-video';
-import 'react-modal-video/scss/modal-video.scss' ;
 import { Modal } from "react-bootstrap";
 import './styles.scss'
 import { useAccount, useConnect, useContractReads, useDisconnect } from 'wagmi'
@@ -123,7 +121,6 @@ function SliderItem(props) {
             </div>
             
          
-            <ModalVideo url={"https://bafybeidtdt42ujc5wf2a72ocwhryo6rsr7nym4ycwjfa3dhkchpw3n4jre.ipfs.w3s.link/compressed.mp4"} autoplay isOpen={isOpen}  onClose={() => setOpen(false)} />
 
             { <Modal
                 show={show}
