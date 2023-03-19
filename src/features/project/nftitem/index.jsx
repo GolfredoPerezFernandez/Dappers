@@ -21,6 +21,7 @@ function Project(props) {
         setVisible((prevValue) => prevValue + 4);
     }
 
+	
    
     const { data:data2, isError, isLoading } = useContractRead({
         address: '0x2EdA6252bC82860f364Ce7d1a1709c76e40b3dEb',
@@ -48,8 +49,8 @@ function Project(props) {
                     </div>
 
                     {
-                        data.slice(0,visible).map(item => (
-                            <div key={item.id} className="col-md-3">
+                        data.slice(0,visible).map((item,i) => (
+                            <div key={i} className="col-md-3">
                                 <ProjectItem item={item} />
                             </div>
                         ))

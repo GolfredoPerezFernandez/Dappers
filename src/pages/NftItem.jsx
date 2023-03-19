@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import {dataProject} from '../assets/fake-data/dataProject';
 import {dataProject2}  from '../assets/fake-data/dataProject';
@@ -11,19 +11,59 @@ function NftItem(props) {
 
 	const { address:ethAddress, isConnecting, isDisconnected } = useAccount()
 	
+let [datos,setDatos]=useState([])
+   
+   
+const { data:dataRead, isError, isLoading } = useContractRead({
+	address: '0x2EdA6252bC82860f364Ce7d1a1709c76e40b3dEb',
+	abi: collection,
+	args:[ethAddress],
+	functionName: 'getTokensURI',
+  })
+	  useEffect(()=>{
 
-    const { data, isError, isLoading } = useContractRead({
-        address: '0x2EdA6252bC82860f364Ce7d1a1709c76e40b3dEb',
-        abi: collection,
-        args:[ethAddress],
-        functionName: 'walletOfOwner',
-      })
-    console.log("data "+data)
+		async function  init(){
+			
+	console.log("data ")
+			let name=""
+			let description=""
+			let image=""
+			
+	let newData=
+	dataRead.map(async (item)=>{
+		await fetch(item)
+			.then(function (response) {
+	  
+	console.log("data "+item)
+			  return response.json();
+			}).then(function (data) {
+				setDatos(datos => [...datos, {
+					name: data.name,
+					description:data.description,
+					image: data.image
+				}]);	
+			  name = data.name
+	  
+			  description = data.description
+			  image = data.image
+			})
+	})
+	console.log("data "+JSON.stringify(datos))
+	
+
+	}
+if(dataRead){
+
+	init()
+}
+}
+
+  ,[dataRead])
     return (
         <div className='page-nft'>
             <PageTitle title='MY NFT ITEM’S' />
 
-            <Project data={data??[]} />
+            <Project data={datos??[]} />
         </div>
     );
 }
