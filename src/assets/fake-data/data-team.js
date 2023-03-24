@@ -9,8 +9,8 @@ const dataTeam = [
     {
         id: 1,
         img: img1,
-        name: 'Esther Howard',
-        position: 'Co-founder & COO',
+        name: 'Thoth',
+        position: 'Founder and CEO:',
         listsocial: [
             {
                 id: 1,
@@ -37,8 +37,8 @@ const dataTeam = [
     {
         id: 2,
         img: img2,
-        name: 'Devon Lane',
-        position: 'Blockchain Developer',
+        name: 'Golfredo',
+        position: 'Head Developer',
         listsocial: [
             {
                 id: 1,
@@ -65,8 +65,8 @@ const dataTeam = [
     {
         id: 3,
         img: img3,
-        name: 'Ralph Edwards',
-        position: 'Backend Engineer',
+        name: 'Neto',
+        position: 'Artist',
         listsocial: [
             {
                 id: 1,

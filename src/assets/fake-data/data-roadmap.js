@@ -1,19 +1,10 @@
 const dataRoadmap = [
     {
         id: 1,
-        time: 'Q2 2022',
+        time: '',
         list: [
             {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
+                text:"we believe that art and activism can go hand in hand. That's why we're proud to announce that 50% of the proceeds from every Dapper Dog NFT sales will go to a local dog charity in Southern California. Our mission is to not only create beautiful and unique digital art, but also to make a tangible difference in the lives of dogs in need."
             },
         ],
         positon: 'left',
@@ -21,19 +12,10 @@ const dataRoadmap = [
     },
     {
         id: 2,
-        time: 'Q1 2022',
+        time: '',
         list: [
             {
-                text: 'Release website and logo'
-            },
-            {
-                text: 'Grow community'
-            },
-            {
-                text: 'Launch the project'
-            },
-            {
-                text: 'Social media setup'
+                text: "Our chosen charity is dedicated to rescuing, rehabilitating, and finding forever homes for dogs in Southern California. By supporting this organization, we can help provide vital resources such as food, shelter, medical care, and behavioral training to dogs who have been abandoned or mistreated. We believe that every dog deserves a chance at a happy and healthy life, and we're committed to doing our part to make that a reality."
             },
         ],
         positon: 'right',
@@ -41,152 +23,40 @@ const dataRoadmap = [
     },
     {
         id: 3,
-        time: 'Q4 2022',
+        time: '',
         list: [
             {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
+                text: "By purchasing a Dapper Dog NFT, you're not only acquiring a beautiful and one-of-a-kind digital asset, but also contributing to a greater cause. Your investment will not only benefit you as a collector, but will also help support the important work of our partner charity. Together, we can create a world where every dog has a chance to thrive."
             },
         ],
         positon: 'left'
     },
     {
         id: 4,
-        time: 'Q3 2022',
+        time: '',
         list: [
             {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
+                text: "In addition to their stunning design and usage rights, our Dapper Dogs NFTs offer a unique opportunity for collectors to earn Dapper Coin simply by owning them. That's right – with in-wallet staking, your Dapper Dog NFT will earn you daily rewards in the form of Dapper Coin, a cryptocurrency that can be used to purchase other NFTs in our collection or traded on supported cryptocurrency exchanges."
             },
         ],
         positon: 'right'
     },
     {
         id: 5,
-        time: 'Q2 2022',
+        time: '',
         list: [
             {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
+                text: "In-wallet staking is a simple process that requires no additional effort on your part. All you need to do is hold your Dapper Dog NFT in a compatible wallet that supports staking. Once your NFT is staked, you'll earn Dapper Coin automatically every day, just for holding onto your NFT. It's like earning interest on your investment, except with Dapper Coin, you have the potential to earn even more rewards over time."
             },
         ],
         positon: 'left'
     },
     {
         id: 6,
-        time: 'Q1 2022',
+        time: '',
         list: [
             {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'right'
-    },
-    {
-        id: 7,
-        time: 'Q4 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'left'
-    },
-    {
-        id: 8,
-        time: 'Q3 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'right'
-    },
-    {
-        id: 9,
-        time: 'Q2 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'left'
-    },
-    {
-        id: 10,
-        time: 'Q1 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
+                text: "By offering in-wallet staking, we're not only rewarding our loyal collectors, but also incentivizing them to hold onto their Dapper Dog NFTs for the long term. This helps create a stable and active marketplace for our collection, and ensures that our NFTs remain valuable and sought-after over time."
             },
         ],
         positon: 'right'

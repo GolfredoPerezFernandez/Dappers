@@ -14,7 +14,7 @@ function RoadMap(props) {
     const [dataBlock] = useState(
         {
             subtitle: 'ROADMAP',
-            title: 'Dapper Timeline'
+            title: 'Mission Statement'
         }
     )
 

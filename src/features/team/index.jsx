@@ -20,7 +20,7 @@ function Team(props) {
         subtitle: 'Our team',
         title: 'Meet our TEAM',
         desc: 'Who we are',
-        text: 'Purus, laoreet dui augue ut euismod. Elementum ante sociis volutpat tellus enim, nisl consectetur mauris. Venenatis congue id quis eget viverra. Vestibulum, justo, euismod congue feugiat eget fames gravida posuere.'
+        text: "Together, our team is dedicated to creating a world-class NFT collection that combines the best of art and technology. We're committed to building a vibrant community of dog lovers, collectors, and enthusiasts, and we're excited to see where the Dapper Dogs journey takes us next."
     })
     return (
         <section className="tf-section tf-team">

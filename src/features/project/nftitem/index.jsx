@@ -22,14 +22,6 @@ function Project(props) {
     }
 
 	
-   
-    const { data:data2, isError, isLoading } = useContractRead({
-        address: '0x2EdA6252bC82860f364Ce7d1a1709c76e40b3dEb',
-        abi: collection,
-        args:[ethAddress],
-        functionName: 'getTokensURI',
-      })
-   console.log(data2)
     return (
         <section className="tf-section tf-project home-2 nft-item">
             <div className="container">
