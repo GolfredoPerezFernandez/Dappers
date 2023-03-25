@@ -27,9 +27,9 @@ const { data:dataRead, isError, isLoading } = useContractRead({
 	console.log("data ")
 			let name=""
 			let description=""
-			let image=""
+			let img=""
 			
-	let newData=
+	
 	dataRead.map(async (item)=>{
 		await fetch(item)
 			.then(function (response) {
@@ -40,12 +40,8 @@ const { data:dataRead, isError, isLoading } = useContractRead({
 				setDatos(datos => [...datos, {
 					name: data.name,
 					description:data.description,
-					image: data.image
+					img: data.image
 				}]);	
-			  name = data.name
-	  
-			  description = data.description
-			  image = data.image
 			})
 	})
 	console.log("data "+JSON.stringify(datos))
