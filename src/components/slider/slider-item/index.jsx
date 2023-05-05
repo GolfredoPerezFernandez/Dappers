@@ -112,7 +112,7 @@ function SliderItem(props) {
 								
                             </div>
                         </div>
-                        <div className="col-xl-6 col-md-3">
+                        <div className="col-xl-6 col-md-2">
                             <div className="image">
                                 <img src={item.img} alt="Dapper" />
 

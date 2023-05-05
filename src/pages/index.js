@@ -15,10 +15,12 @@ import Blog from "./Blog";
 import BlogDetails from "./BlogDetails";
 import Contact from "./Contact";
 import TeamDetail from "./TeamDetail";
+import Staking from "./Staking";
 
 
 const routes = [
   { path: '/', component: <HomeOne />},
+  { path: '/staking', component: <Staking />},
   { path: '/home-v2', component: <HomeTwo />},
   { path: '/home-v3', component: <HomeThree />},
   { path: '/about-v1', component: <AboutOne />},
