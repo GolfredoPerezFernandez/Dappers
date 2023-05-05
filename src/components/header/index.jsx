@@ -1,7 +1,8 @@
 import React , { useState , useEffect } from 'react';
 
-import { Link , NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import menus from '../../pages/menu';
+import { Link } from 'react-router-dom';
 
 import './styles.scss';
 import logo from '../../assets/images/logo/logo.png'
@@ -34,6 +35,7 @@ const Header = () => {
     };
 
     return (
+        
         <header id="header_main" className={`header ${scroll ? 'is-fixed' : ''}`}>
             <div className="container">
                 <div id="site-header-inner">
@@ -63,10 +65,12 @@ const Header = () => {
                                     </li>
                                 ))
                             }
+                            
+                    <a key={1} style={{marginLeft:15,color:'#C3A729',fontWeight:"550"}} className="menu-item" to={"https://discord.gg/PsesnmT7"} href={"https://discord.gg/PsesnmT7"}>
+                    {'JOIN DISCORD'}
+                </a> 
                         </ul>
                     </nav>
-                    <Button title='join discord' path='/contact' />
-
                     <div className={`mobile-button ${menuActive ? 'active' : ''}`} onClick={handleMenuActive}><span></span></div>
                 </div>
             </div>

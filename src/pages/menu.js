@@ -23,6 +23,7 @@ const menus = [
         links: '/nft-item',
     },
     
+    
 ]
 
 export default menus;
