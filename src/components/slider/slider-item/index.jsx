@@ -101,14 +101,15 @@ function SliderItem(props) {
                                 <p className="sub-title">{item.desc}</p>
                                 <div className="wrap-btn">
                                     {isConnected===true?<Link onClick={()=> handleShow()}  to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">Mint NFT</span></Link>
-:                                    <Link onClick={() => connect()} to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">connect wallet</span></Link>
+:                                    <span className="effect"><Link onClick={() => connect()} to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid">connect wallet</Link></span>
 }
-                                    <button to="#" className="tf-button btn-effect popup-youtube" onClick={()=> setOpen(true)}>
-                                        <span className="boder-fade"></span>                                     
-                                        <span className="effect">watch video</span>
-                                    </button>
+<div className="separator"/>
+<Link onClick={()=> setOpen(true)} to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid">
+									watch video
+										</Link>
                                     
                                 </div>
+								
                             </div>
                         </div>
                         <div className="col-xl-6 col-md-3">
