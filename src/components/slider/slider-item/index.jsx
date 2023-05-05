@@ -25,14 +25,14 @@ function SliderItem(props) {
 	const { data:data3, isLoading:isLoading3 } = useContractRead({
 		address: '0xe990eAA4D078f3F3018F692A5880423cF9536f92',
 		abi: erc20,    
-		args: [ethAddress,'0x1ecbBE76E57a56D0C7Cf15E33E0eeB777e9eBDD2'],
+		args: [ethAddress,'0x754a08cA73CB14264ACCd1E88c3D17f655405861'],
 		watch: true,
 		functionName: 'allowance',
 	  })
 
 	  const { data:data2, isLoading:isLoading2, isSuccess:isSuccess2, write:write2 } = useContractWrite({
 		mode: 'recklesslyUnprepared',
-		address: '0x1ecbBE76E57a56D0C7Cf15E33E0eeB777e9eBDD2',
+		address: '0x754a08cA73CB14264ACCd1E88c3D17f655405861',
 		abi: collection,
 		args: [ethAddress,1,0],
 		functionName: 'mint',
@@ -47,7 +47,7 @@ function SliderItem(props) {
 	  const { config, error } = usePrepareContractWrite({
 		address: '0xe990eAA4D078f3F3018F692A5880423cF9536f92',
 		abi: erc20,
-		args: ["0x1ecbBE76E57a56D0C7Cf15E33E0eeB777e9eBDD2","1500000000000000000000"] ,
+		args: ["0x754a08cA73CB14264ACCd1E88c3D17f655405861","1500000000000000000000"] ,
 		functionName: 'approve',
 		  onSuccess(data) {	
 

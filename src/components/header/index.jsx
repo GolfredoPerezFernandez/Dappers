@@ -40,7 +40,7 @@ const Header = () => {
             <div className="container">
                 <div id="site-header-inner">
                     <div className="header__logo">
-                        <NavLink to="/"><img src={"https://bafybeic5tjypqhvfjso4l6zta45uzam4xi4jua5bout3l3cvr4r7lwwlt4.ipfs.w3s.link/logo.png"} alt="Crybox" /></NavLink>
+                        <NavLink to="/"><img src={"https://bafybeic5tjypqhvfjso4l6zta45uzam4xi4jua5bout3l3cvr4r7lwwlt4.ipfs.w3s.link/logo.png"} alt="Dapper" /></NavLink>
                     </div>
                     <nav id="main-nav" className={`main-nav ${menuActive ? 'active' : ''}`} >
                         <ul id="menu-primary-menu" className="menu">

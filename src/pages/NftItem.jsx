@@ -15,7 +15,7 @@ let [datos,setDatos]=useState([])
    
    
 const { data:dataRead, isError, isLoading } = useContractRead({
-	address: '0x1ecbBE76E57a56D0C7Cf15E33E0eeB777e9eBDD2',
+	address: '0x754a08cA73CB14264ACCd1E88c3D17f655405861',
 	abi: collection,
 	args:[ethAddress],
 	functionName: 'getTokensOfOwner',
