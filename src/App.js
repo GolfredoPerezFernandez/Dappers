@@ -7,12 +7,12 @@ import Footer from './components/footer';
 import '../src/assets/font/font-awesome.css'
 import routes from './pages';
 import Page404 from './pages/404';
-import { songbird } from 'wagmi/chains'
+import { flare } from 'wagmi/chains'
 import { createClient, configureChains, mainnet,WagmiConfig } from 'wagmi'
 import { publicProvider } from 'wagmi/providers/public'
  
 const { provider, webSocketProvider } = configureChains(
-  [songbird],
+  [flare],
   [publicProvider()],
 )
  

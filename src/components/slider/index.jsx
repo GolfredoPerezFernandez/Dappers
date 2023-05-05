@@ -19,7 +19,6 @@ function Slider(props) {
                 modules={[Navigation,  Scrollbar, A11y ]}
                     spaceBetween={0}
                     slidesPerView={1}
-                    
                     scrollbar={{ draggable: false }}
                 >
                 {
