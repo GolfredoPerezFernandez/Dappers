@@ -23,7 +23,8 @@ const { data:dataRead, isError, isLoading } = useContractRead({
 	  useEffect(()=>{
 
 		async function  init(){
-			
+			console.log("dataRead "+JSON.stringify(dataRead))
+
 	console.log("data ")
 			let name=""
 			let description=""
@@ -31,19 +32,13 @@ const { data:dataRead, isError, isLoading } = useContractRead({
 			
 	
 	dataRead.map(async (item)=>{
-		await fetch(item)
-			.then(function (response) {
-	  
-			  return response.json();
-			}).then(function (data) {
 				setDatos(datos => [...datos, {
-					name: data.name,
-					description:data.description,
-					img: data.image
+					name: "Dapper #"+parseInt(item),
+					img:"https://bafybeidfk7evf5awbawognpa3oeeibha4vyzic2g5zb3clviatz2hm2ywy.ipfs.nftstorage.link/"+parseInt(item)+".png" 
 				}]);	
-			})
+		
 	})
-	console.log("data "+JSON.stringify(datos))
+
 	
 
 	}
