@@ -32,7 +32,7 @@ export default function Staking() {
 	  
 		})  
 	
-
+       
 const { data:dataBonusv2 } = useContractRead({
 	address: '0x2515B61259A9f2e4c3b795C0cD182664Be9AB3a7',
 	abi: stakingABI,
@@ -239,7 +239,7 @@ const [pending,setPending]= React.useState("0")
       horizontalLine
       isCurrentBillingPeriod
       isCurrentPlan
-      price={<Typography key={"989781"} color="#041836" variant="h1" weight="700">{rewardsv2+ " COOT"}</Typography>}
+      price={<Typography key={"989781"} color="#041836" variant="h1" weight="700">{rewardsv2+ " COOT CASH"}</Typography>}
       themeColor="#C3A729"
       title="Staking Dappers"
       width="285px"

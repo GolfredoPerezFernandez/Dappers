@@ -4,7 +4,7 @@ const dataRoadmap = [
         time: '',
         list: [
             {
-                text:"we believe that art and activism can go hand in hand. That's why we're proud to announce that 50% of the proceeds from every Dapper Dog NFT sales will go to a local dog charity in Southern California. Our mission is to not only create beautiful and unique digital art, but also to make a tangible difference in the lives of dogs in need."
+                text:"We believe that art and activism can go hand in hand. That's why we're proud to announce that 20% of the proceeds from every Dapper Dog NFT sales will go to a local dog charity in Southern California. Our mission is to not only create beautiful and unique digital art, but also to make a tangible difference in the lives of dogs in need."
             },
         ],
         positon: 'left',
@@ -36,7 +36,7 @@ const dataRoadmap = [
         time: '',
         list: [
             {
-                text: "In addition to their stunning design and usage rights, our Dapper Dogs NFTs offer a unique opportunity for collectors to earn Dapper Coin simply by owning them. That's right – with in-wallet staking, your Dapper Dog NFT will earn you daily rewards in the form of Dapper Coin, a cryptocurrency that can be used to purchase other NFTs in our collection or traded on supported cryptocurrency exchanges."
+                text: "In addition to their stunning design and usage rights, our Dapper Dogs NFTs offer a unique opportunity for collectors to earn Cootie Cash simply by owning them. That's right – with in-wallet staking, your Dapper Dog NFT will earn you daily rewards in the form of Dapper Coin, a cryptocurrency that can be used to purchase other NFTs in our collection or traded on supported cryptocurrency exchanges."
             },
         ],
         positon: 'right'

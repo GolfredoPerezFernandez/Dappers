@@ -22,7 +22,7 @@ const dataWork = [
         id: 4,
         numb: '04',
         title: "Sell Your NFTS!",
-        text : "If you're looking to sell your Cooties NFTs, there are two great options available: SprinklesNFTs and CootieMart. These marketplaces are built on top of the Songbird and Flare networks, respectively, which offer fast and secure transactions with low fees."
+        text : "If you're looking to sell your Dappers NFTs, there are two great options available: Sparkles and CootieMart. These marketplaces are built on top of the Songbird and Flare networks, respectively, which offer fast and secure transactions with low fees."
     },
 ]
 export default dataWork;
