@@ -9,7 +9,7 @@ import { useContractWrite, usePrepareContractWrite } from 'wagmi'
 import { useContractRead } from 'wagmi'
 import { BigNumber } from 'ethers'
 import * as THREE from "three";
-import BIRDS from 'vanta/dist/vanta.birds.min'
+import BIRDS from 'vanta/dist/vanta.net.min'
 
 SliderItem.propTypes = {
     item : PropTypes.object,
@@ -21,7 +21,20 @@ function SliderItem(props) {
 	useEffect(() => {
 	  if (!vantaEffect) {
 		setVantaEffect(BIRDS({
-		  el: myRef.current
+		  el: myRef.current,
+		  
+		  mouseControls: true,
+		  touchControls: true,
+		  gyroControls: false,
+		  minHeight: 200.00,
+		  minWidth: 200.00,
+		  scale: 1.00,
+		  scaleMobile: 1.00,
+		  color: 0xdeb410,
+		  backgroundColor: 0x8040f,
+		  points: 8.00,
+		  maxDistance: 22.00,
+		  spacing: 18.00
 		}))
 	  }
 	  return () => {
