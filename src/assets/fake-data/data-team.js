@@ -64,7 +64,7 @@ const dataTeam = [
     },
     {
         id: 3,
-        img: img3,
+        img: "https://bafybeigcdfqkvvjj37baaakd6zljlvpy3wg7k2bse2d7weet3njb2rbsrm.ipfs.w3s.link/D7326FE2-07DF-4AC3-92AE-003D158B291A.jpg",
         name: 'Neto',
         position: 'Artist',
         listsocial: [
