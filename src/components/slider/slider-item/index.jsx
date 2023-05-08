@@ -125,7 +125,8 @@ function SliderItem(props) {
                                 <h1 className="title">{item.title}</h1>
                                 <p className="sub-title">{item.desc}</p>
                                 <div className="wrap-btn">
-                                     {isConnected===true?<Link  onClick={()=> handleShow()}  to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">Mint NFT</span></Link>
+								//<Link  onClick={()=> handleShow()}  to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">Mint NFT</span></Link>
+                                     {isConnected===true?null
 :                                    <span className="effect"><Link onClick={() => connect()} to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid">connect wallet</Link></span>
 } 
 <div className="separator"/>

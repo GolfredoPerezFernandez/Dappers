@@ -17,8 +17,8 @@ const dataFaq = [
     },
     {
         id: 4,
-        title: 'What is DapperCoin?',
-        content: "DapperCoin is a cryptocurrency that is earned through in-wallet staking of Dapper Dogs NFTs. It can be used to purchase other NFTs in the Dapper Dogs collection or traded on supported cryptocurrency exchanges. It's a way to earn rewards for simply holding onto your Dapper Dogs NFTs.",
+        title: 'What is Cootie Cash?',
+        content: "Cootie Cash is a cryptocurrency that is earned through in-wallet staking of Dapper Dogs NFTs. It can be used to purchase other NFTs in the Dapper Dogs collection or traded on supported cryptocurrency exchanges. It's a way to earn rewards for simply holding onto your Dapper Dogs NFTs.",
     },
     {
         id: 5,
