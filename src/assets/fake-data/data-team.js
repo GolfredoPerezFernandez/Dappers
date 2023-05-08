@@ -90,6 +90,37 @@ const dataTeam = [
             },
         ]
     },
+    {
+        id: 4,
+        img: img4,
+        name: '',
+        position: '',
+        listsocial: [
+            {
+                id: 1,
+                icon: 'fab fa-twitter',
+                link: '#'
+            },
+            {
+                id: 2,
+                icon: 'fab fa-facebook-f',
+                link: '#'
+            },
+            {
+                id: 3,
+                icon: 'fa fa-paper-plane',
+                link: '#'
+            },
+            {
+                id: 4,
+                icon: 'fab fa-reddit',
+                link: '#'
+            },
+        ]
+    },
+    
+    
+  
 ]
 
 export default dataTeam;

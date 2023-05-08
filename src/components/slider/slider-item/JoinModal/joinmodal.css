@@ -1,7 +1,7 @@
 .join-modal-box {
     position: fixed;
     inset: 0;
-    background: rgba(4, 12, 18, 0.9);
+    background: "#0E2230";
     backdrop-filter: blur(10px);
     z-index: 999;
     display: flex;
