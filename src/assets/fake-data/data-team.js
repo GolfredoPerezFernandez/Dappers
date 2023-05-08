@@ -8,7 +8,7 @@ import img6 from '../images/common/team11.png';
 const dataTeam = [
     {
         id: 1,
-        img: img1,
+        img: "https://bafybeickh4f6xkpesozix2cukiqpzggsaq4lyn2f3mmml64z62moc4wvd4.ipfs.w3s.link/CootiesV2_Remixed_-_Thoth.png",
         name: 'Thoth',
         position: 'Founder and CEO:',
         listsocial: [
