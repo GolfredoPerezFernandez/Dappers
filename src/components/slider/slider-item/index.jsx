@@ -1,4 +1,4 @@
-import React , {useState} from 'react';
+import React , {useState,useRef,useEffect} from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { Modal } from "react-bootstrap";
@@ -8,12 +8,26 @@ import { InjectedConnector } from 'wagmi/connectors/injected'
 import { useContractWrite, usePrepareContractWrite } from 'wagmi'
 import { useContractRead } from 'wagmi'
 import { BigNumber } from 'ethers'
+import * as THREE from "three";
+import BIRDS from 'vanta/dist/vanta.birds.min'
 
 SliderItem.propTypes = {
     item : PropTypes.object,
 };
 
 function SliderItem(props) {
+	const [vantaEffect, setVantaEffect] = useState(null)
+	const myRef = useRef(null)
+	useEffect(() => {
+	  if (!vantaEffect) {
+		setVantaEffect(BIRDS({
+		  el: myRef.current
+		}))
+	  }
+	  return () => {
+		if (vantaEffect) vantaEffect.destroy()
+	  }
+	}, [vantaEffect])
     const {item} = props;  
 	  const [text, setText] = useState(false)
 
@@ -91,7 +105,7 @@ function SliderItem(props) {
     const { disconnect } = useDisconnect() 
     return (
         <div   className={`box-slider ${item.classAction}`}>
-            <img className='bg-slider' src={item.bgImg} alt="Dapper" />
+            <div ref={myRef}>
             <div className="box-slider__main">
                 <div className="container">
                     <div className="row">
@@ -121,6 +135,7 @@ function SliderItem(props) {
                     </div>
                 </div>
             </div>
+			</div>
             
          
 

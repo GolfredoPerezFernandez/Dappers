@@ -36,7 +36,7 @@ const dataTeam = [
     },
     {
         id: 2,
-        img: img2,
+        img: "https://bafybeihljp2ws5jtapujzai7jkk6ybsbfa75sifitqxlmhezk5dmfojyla.ipfs.nftstorage.link/",
         name: 'Golfredo',
         position: 'Head Developer',
         listsocial: [
