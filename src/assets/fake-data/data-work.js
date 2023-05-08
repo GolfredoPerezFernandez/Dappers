@@ -3,7 +3,7 @@ const dataWork = [
         id: 1,
         numb: '01',
         title: 'Earn While You Sleep!',
-        text : 'In-wallet staking allows you to earn rewards, such as Dapper Coin, simply by holding your Dapper Dog NFT in a compatible wallet that supports staking.',
+        text : 'In-wallet staking allows you to earn rewards, such as our deflationary coin Cootie Cash, simply by holding your Dapper Dog NFT in a compatible wallet that supports staking.',
         active: 'active'
     },
     {
