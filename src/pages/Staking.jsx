@@ -19,7 +19,7 @@ export default function Staking() {
 
 	
 	const { config:configv2 } = usePrepareContractWrite({
-		address: '0x2515B61259A9f2e4c3b795C0cD182664Be9AB3a7',
+		address: '0x46714d853883f0a518C064A406bd429D273425dA',
 		abi: stakingABI,
 		chainId:14,
 		functionName: 'claimRewards',
@@ -34,7 +34,7 @@ export default function Staking() {
 	
        
 const { data:dataBonusv2 } = useContractRead({
-	address: '0x2515B61259A9f2e4c3b795C0cD182664Be9AB3a7',
+	address: '0x46714d853883f0a518C064A406bd429D273425dA',
 	abi: stakingABI,
 	args:[ethAddress],
 	watch: true,
@@ -70,7 +70,7 @@ const [pending,setPending]= React.useState("0")
 		
 		
 		const { data:data2v2 } = useContractRead({
-			address: '0x2515B61259A9f2e4c3b795C0cD182664Be9AB3a7',
+			address: '0x46714d853883f0a518C064A406bd429D273425dA',
 			abi: stakingABI,
 			args:[ethAddress],
 			watch: true,
@@ -81,7 +81,7 @@ const [pending,setPending]= React.useState("0")
 			})
 		 
 		  const { data:data3v2 } = useContractRead({
-			address: '0x2515B61259A9f2e4c3b795C0cD182664Be9AB3a7',
+			address: '0x46714d853883f0a518C064A406bd429D273425dA',
 			abi: stakingABI,
 			args:[ethAddress], 
 			
