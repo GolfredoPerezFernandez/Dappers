@@ -99,7 +99,6 @@ function SliderItem(props) {
     
     
     const mintOne =async () => {
-		console.log(parseFloat(data3))
 		setText(false)
 
 			await  write2?.()
