@@ -179,20 +179,44 @@ const [pending,setPending]= React.useState("0")
 	key={"99"}
 
     style={{
-      paddingTop:100,
+      paddingTop:150,
       display: 'flex',
-      flexDirection: 'row',
+      flexDirection: 'column',
       justifyContent:"center",
       alignItems:"center",
     }}
   >
+	<div
+	key={"99"}
+
+    style={{
+      display: 'flex',
+	  width:"70%",
+	  marginTop:10,
+      flexDirection: 'column',
+      justifyContent:"center",
+      alignItems:"center",
+    }}
+  >
+	<Typography alignSelf={"center"} key={"9167"} color="#C3A729" variant="caption14" weight="550">Introducing the Dapper Dogs In-Wallet Staking System!</Typography>
+	<div
+	key={"99"}
+
+    style={{
+	  height:20,
+    }}
+  />
+	<Typography alignSelf={"center"} key={"9167"} color="white" variant="caption14" weight="550">Our smart contract, SoftStakingDapper, offers a unique 5-tier staking system that rewards Dapper Dog NFT holders with CootieCASH. The longer you hold your Dapper Dog NFTs, the higher your tier and bonus multiplier, resulting in more rewards!</Typography>
+
+	</div>
 </div>
+	
 
       <div
 	  	key={"142"}
 
     style={{
-      paddingTop:100,
+      paddingTop:50,
       paddingBottom:100,
       display: 'flex',
       flexDirection: 'row',
@@ -200,6 +224,7 @@ const [pending,setPending]= React.useState("0")
       alignItems:"center",
     }}
   >
+	
     <Grid container
 	
 	key={"12"}
@@ -244,10 +269,83 @@ const [pending,setPending]= React.useState("0")
       title="Staking Dappers"
       width="285px"
     />
+	
     </div>
   </Grid>
 </Grid>
-</div>  </div>
+</div> 
+
+ </div>
+ 
+ <Grid style={{width:"80%",marginLeft:"10%",paddingBottom:200,marginRight:"10%",alignSelf:"center",alignContent:"center",alignItems:"center"}}>
+
+<div>
+	<div
+	key={"99"}
+
+    style={{
+      paddingTop:50,
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent:"center",
+      alignItems:"center",
+    }}
+  >
+	<div
+	key={"99"}
+
+    style={{
+      display: 'flex',
+	  width:"70%",
+	  marginTop:10,
+      flexDirection: 'column',
+      justifyContent:"center",
+      alignItems:"center",
+    }}
+  >
+	<Typography alignSelf={"center"} key={"9167"} color="#C3A729" variant="caption14" weight="550">Our smart contract, SoftStakingDapper, offers a unique 5-tier staking system that rewards Dapper Dog NFT holders with CootieCASH. The longer you hold your Dapper Dog NFTs, the higher your tier and bonus multiplier, resulting in more rewards!</Typography>
+	<div
+	key={"99"}
+
+    style={{
+	  height:20,
+    }}
+  />
+	<Typography alignSelf={"center"} key={"9167"} color="white" variant="caption14" weight="550">Claim your initial rewards - If you're a new user, you'll receive a first claim amount of 0.0000000000000001 CootieCASH.  Hold and earn - The more NFTs you hold, the more rewards you'll earn per hour. Rewards are calculated based on your NFT count, rewards per NFT per hour, and the bonus multiplier.
+  Increase your tier and bonus multiplier - Your tier and bonus multiplier are determined by how long you've held your NFTs. The longer you hold, the higher your tier, and the more rewards you'll earn! The tiers and their respective durations are as follows:</Typography>
+
+  <Typography alignSelf={"center"} key={"9167"} color="white" variant="caption14" weight="550">Tier 1: 30 days</Typography>
+  <Typography alignSelf={"center"} key={"9167"} color="white" variant="caption14" weight="550">Tier 2: 120 days</Typography>
+  <Typography alignSelf={"center"} key={"9167"} color="white" variant="caption14" weight="550">Tier 3: 240 days</Typography>
+  <Typography alignSelf={"center"} key={"9167"} color="white" variant="caption14" weight="550">Tier 4: 360 days</Typography>
+  <Typography alignSelf={"center"} key={"9167"} color="white" variant="caption14" weight="550">Tier 5: 480 days</Typography>
+  <div
+	key={"99"}
+
+    style={{
+	  height:20,
+    }}
+  />
+  <Typography alignSelf={"center"} key={"9167"} color="white"  variant="caption14" weight="550">
+  Each tier offers an increasing bonus percentage, with Tier 1 starting at 3% and each subsequent tier adding an additional 3%.
+  Claim rewards - Simply claim your rewards, and the system will automatically transfer the CootieCASH to your wallet.
+  CootieCASH is a deflationary coin, meaning that 1% of each transaction is burned, reducing the overall supply and increasing its value over time.
+  </Typography>
+  <div
+	key={"99"}
+
+    style={{
+	  height:20,
+    }}
+  />
+  <Typography alignSelf={"center"} key={"9167"} color="#C3A729" variant="caption14" weight="550">  Stay ahead and maximize your earnings with the Dapper Dogs In-Wallet Staking System!  </Typography>
+	
+    
+  
+	</div>
+</div>
+</div>
+</Grid>
    </div>
   )
 }
