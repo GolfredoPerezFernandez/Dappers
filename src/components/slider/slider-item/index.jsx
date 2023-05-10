@@ -130,10 +130,10 @@ function SliderItem(props) {
 								     {isConnected===true?null
 :                                    <span className="effect"><Link onClick={() => connect()} to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid">connect wallet</Link></span>
 } 
-<div className="separator"/>
+<div className="separator"/>{/* 
 <Link onClick={()=> setOpen(true)} to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid">
 									watch video
-										</Link>
+										</Link> */}
                                     
                                 </div>
 								
