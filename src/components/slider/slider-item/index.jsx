@@ -163,7 +163,7 @@ function SliderItem(props) {
                                         <p className="content">Mint your unique Dapper Dog NFT for just 1500 FLR and join our pawsome community. Once minted, stake it immediately to start earning Cootie Cash rewards!</p>
 
 
-								    <Link  disabled={!write} onClick={() =>mintOne()} to="#" className="tf-button-st2 btn-effect" data-toggle="modal"  data-target="#popup_bid"><span className="effect">Create New NFT</span></Link> 
+								    <Link   onClick={() =>mintOne()} to="#" className="tf-button-st2 btn-effect" data-toggle="modal"  data-target="#popup_bid"><span className="effect">Create New NFT</span></Link> 
 
  </div>
             </Modal>}
